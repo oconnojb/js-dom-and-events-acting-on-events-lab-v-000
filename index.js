@@ -9,6 +9,7 @@ preventRefreshOnSubmit();
 function retrieveEmployeeInformation() {
   let aule = $('input');
   let melko = aule[0].value;
+  aule[0].value = '';
   return melko;
 }
 
