@@ -11,3 +11,8 @@ function retrieveEmployeeInformation() {
   let melko = aule[0].value;
   return melko;
 }
+
+funciton addNewElementAsLi(st) {
+  let aule = $('ul');
+  console.log(aule);
+}
