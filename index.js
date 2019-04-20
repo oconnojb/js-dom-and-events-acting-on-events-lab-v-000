@@ -24,21 +24,22 @@ function addNewLiOnClick() {
   let btn = $('input')[1];
   btn.addEventListener('click', addNewElementAsLi());
 }
+let i=0;
 
 function clearEmpLst() {
-  let aule = $('ul.employee-list li');
-  console.log(aule.length);
-  for (var i = 0; i < aule.length; i++) {
-    aule[i].remove();
+  if (i!=0) {
+    let aule = $('ul.employee-list li');
+    console.log(aule.length);
+    for (var i = 0; i < aule.length; i++) {
+      aule[i].remove();
+    }
   }
 
-  let melko = $('ul.employee-list');
-  melko.empty();
-
-  console.log(aule.length);
 }
 
 function clearEmployeeListOnLinkClick() {
   let lnk = $('a')[0];
+
   lnk.addEventListener('click', clearEmpLst());
+  i++;
 }
