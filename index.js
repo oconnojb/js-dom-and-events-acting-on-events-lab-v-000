@@ -35,6 +35,7 @@ function clearEmpLst() {
   let melko = $('ul.employee-list');
   melko.empty();
 
+ let aule = $('ul.employee-list li');
   console.log(aule.length);
 }
 
