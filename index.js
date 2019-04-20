@@ -15,5 +15,6 @@ function retrieveEmployeeInformation() {
 function addNewElementAsLi(val) {
   let aule = $('ul.employee-list');
   console.log(aule);
+  console.log(val);
   aule.append($('<li>').text(val));
 }
