@@ -24,6 +24,6 @@ function addNewLiOnClick() {
 }
 
 function clearEmployeeListOnLinkClick() {
-  let lnk = $('a');
+  let lnk = $('a')[0];
   console.log(lnk);
 }
