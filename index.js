@@ -23,7 +23,12 @@ function addNewLiOnClick() {
   btn.addEventListener('click', addNewElementAsLi());
 }
 
+function clearEmpLst() {
+  let aule = $('ul.employee-list');
+  aule.clear;
+}
+
 function clearEmployeeListOnLinkClick() {
   let lnk = $('a')[0];
-  console.log(lnk);
+  lnk.addEventListener('click', clearEmpLst());
 }
