@@ -7,7 +7,7 @@ function preventRefreshOnSubmit(){
 preventRefreshOnSubmit();
 
 function retrieveEmployeeInformation() {
-  console.log('start!');
   let aule = $('input');
   console.log(aule[0].value);
+  return aule;
 }
