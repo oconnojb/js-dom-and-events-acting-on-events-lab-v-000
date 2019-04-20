@@ -9,13 +9,15 @@ preventRefreshOnSubmit();
 function retrieveEmployeeInformation() {
   let aule = $('input');
   let melko = aule[0].value;
-  aule[0].value = '';
   return melko;
 }
 
 function addNewElementAsLi() {
   let aule = $('ul.employee-list');
   aule.append($('<li>').text(retrieveEmployeeInformation()));
+  let a = $('input');
+  let melko = a[0].value;
+  a[0].value = '';
 }
 
 function addNewLiOnClick() {
