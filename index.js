@@ -32,8 +32,9 @@ function clearEmpLst() {
     aule[i].remove();
   }
   console.log(aule.length);
+
   let melko = $('ul.employee-list');
-  melko.clear();
+  melko.empty();
 }
 
 function clearEmployeeListOnLinkClick() {
