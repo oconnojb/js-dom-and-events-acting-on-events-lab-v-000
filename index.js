@@ -14,5 +14,5 @@ function retrieveEmployeeInformation() {
 
 funciton addNewElementAsLi(st) {
   let aule = $('ul');
-  console.log(aule)
+  console.log(aule);
 }
