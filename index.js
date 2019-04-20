@@ -8,6 +8,6 @@ preventRefreshOnSubmit();
 
 function retrieveEmployeeInformation() {
   console.log('start!');
-  let aule = $('form input');
+  let aule = $('input');
   console.log(aule.value);
 }
