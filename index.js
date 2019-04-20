@@ -31,12 +31,11 @@ function clearEmpLst() {
     let aule = $('ul.employee-list');
     aule.empty();
   }
-
 }
 
 function clearEmployeeListOnLinkClick() {
   let lnk = $('a')[0];
 
-  lnk.addEventListener('click', clearEmpLst());
+  lnk.addEventListener('click', clearEmpLst);
   i++;
 }
