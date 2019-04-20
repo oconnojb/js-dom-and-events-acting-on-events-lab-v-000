@@ -28,11 +28,8 @@ let i=0;
 
 function clearEmpLst() {
   if (i!=0) {
-    let aule = $('ul.employee-list li');
-    console.log(aule.length);
-    for (var i = 0; i < aule.length; i++) {
-      aule[i].remove();
-    }
+    let aule = $('ul.employee-list');
+    aule.empty();
   }
 
 }
