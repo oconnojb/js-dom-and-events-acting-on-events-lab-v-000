@@ -14,6 +14,10 @@ function retrieveEmployeeInformation() {
 
 function addNewElementAsLi() {
   let aule = $('ul.employee-list');
-  console.log(aule);
   aule.append($('<li>').text(retrieveEmployeeInformation()));
+}
+
+function addNewLiOnClick() {
+  let btn = $('input')[1];
+  console.log(btn)
 }
