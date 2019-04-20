@@ -12,9 +12,8 @@ function retrieveEmployeeInformation() {
   return melko;
 }
 
-function addNewElementAsLi(val) {
+function addNewElementAsLi() {
   let aule = $('ul.employee-list');
   console.log(aule);
-  console.log(val);
-  aule.append($('<li>').text(val));
+  aule.append($('<li>').text(retrieveEmployeeInformation()));
 }
