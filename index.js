@@ -19,5 +19,5 @@ function addNewElementAsLi() {
 
 function addNewLiOnClick() {
   let btn = $('input')[1];
-  console.log(btn)
+  btn.addEventListener('click', addNewElementAsLi());
 }
