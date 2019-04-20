@@ -22,3 +22,8 @@ function addNewLiOnClick() {
   let btn = $('input')[1];
   btn.addEventListener('click', addNewElementAsLi());
 }
+
+function clearEmployeeListOnLinkClick() {
+  let lnk = $('a');
+  console.log(lnk);
+}
