@@ -25,7 +25,7 @@ function addNewLiOnClick() {
 
 function clearEmpLst() {
   let aule = $('ul.employee-list li');
-  aule.empty();
+  aule.remove();
 }
 
 function clearEmployeeListOnLinkClick() {
