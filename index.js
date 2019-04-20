@@ -13,5 +13,6 @@ function retrieveEmployeeInformation() {
 }
 
 function addNewElementAsLi(val) {
-  let aule = $('ul')
+  let aule = $('ul');
+  console.log(aule)
 }
