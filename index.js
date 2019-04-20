@@ -12,6 +12,6 @@ function retrieveEmployeeInformation() {
   return melko;
 }
 
-function addNewElementAsLi() {
+function addNewElementAsLi(val) {
   
 }
